@@ -9,7 +9,7 @@ def index(request):
     return HttpResponse("Hello World! . You're at the polls index.")
 
 
-def fuck(request):
+def test(request):
     host = request.get_host()
-    print('fuck !!!!!')
+    print('test view!!!!!')
     return HttpResponse(host)
